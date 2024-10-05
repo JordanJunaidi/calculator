@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+    border: solid;
+    gap: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    gap: 15px;
+}
+
+#display {
+    border: solid;
+    width: 70%;
+    border-radius: 15px;
+}
