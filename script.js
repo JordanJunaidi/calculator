@@ -23,19 +23,19 @@ function operate(nums, operations) {
 
     else {
 
-        let total=parseInt(nums[0]);
+        let total=parseFloat(nums[0]);
         for (let i=1; i<nums.length; i++) {
             if (operations[i-1] === "+") {
-                total = total + parseInt(nums[i]);
+                total = total + parseFloat(nums[i]);
             }
             else if (operations[i-1] === "-") {
-                total = total - parseInt(nums[i]);
+                total = total - parseFloat(nums[i]);
             }
             else if (operations[i-1] === "x") {
-                total = total * parseInt(nums[i]);
+                total = total * parseFloat(nums[i]);
             }
             else {
-                total = total / parseInt(nums[i]);
+                total = total / parseFloat(nums[i]);
             }
         }
 
