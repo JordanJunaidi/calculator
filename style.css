@@ -3,12 +3,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+    background-color: #F08080;
 }
 
 button {
     height: 50px;
     width: 50px;
     border-radius: 25px;
+    background-color: white;
+}
+
+.filler {
+    opacity: 0;
 }
 
 .buttons {
@@ -16,7 +23,6 @@ button {
     flex-direction: column;
     width: 70%;
     justify-content: space-between;
-    border: solid;
     gap: 15px;
 }
 
@@ -30,5 +36,15 @@ button {
 #display {
     border: solid;
     width: 70%;
+    height: 40px;
     border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+}
+
+#warning {
+    position: fixed;
+    bottom: 0;
 }
